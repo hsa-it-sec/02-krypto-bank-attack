@@ -6,7 +6,7 @@ Ich habe eine Online-Bank gefunden, die eine gravierende Schwachstelle bei der V
 ### Zugriff
 Ich kann die Banking-App mit folgendem Befehl starten (Docker muss installiert sein):
 ```bash
-docker-compose up --build
+docker run -p 8080:8080 --pull=always --rm  ghcr.io/hsa-it-sec/krypto2-bank:latest
 ```
 Anschließend kann ich über den Browser auf die Login-Seite zugreifen:
 ```bash
