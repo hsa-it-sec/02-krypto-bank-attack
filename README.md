@@ -5,7 +5,7 @@ Ich habe eine Online-Bank gefunden, deren RSA-Implementierung so löchrig ist wi
 ## 📝  Logbuch - Was ich bisher herausgefunden
 
 ### 🔓 Zugriff
-Die Banking-App lässt sich easy im Container hochfahren (Docker muss installiert sein):
+Ich kann die Banking-App mit folgendem Befehl starten (Docker muss installiert sein):
 ```bash
 docker run -p 8080:8080 --pull=always --rm ghcr.io/hsa-it-sec/krypto2-bank:latest
 ```
