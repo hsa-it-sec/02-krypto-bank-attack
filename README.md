@@ -7,7 +7,7 @@ Ich habe eine Online-Bank gefunden, deren RSA-Implementierung so löchrig ist wi
 ### 🔓 Zugriff
 Ich kann die Banking-App mit folgendem Befehl starten (Docker muss installiert sein):
 ```bash
-docker run -p 8080:8080 --pull=always --rm ghcr.io/hsa-it-sec/krypto2-bank:latest
+docker run -p 8080:8080 --pull=always --rm ghcr.io/hsa-it-sec/02-krypto-bank:latest
 ```
 Anschließend kann ich über den Browser auf die Login-Seite zugreifen:
 ```bash
