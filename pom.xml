@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.hsa</groupId>
-    <artifactId>krypto2-bank-attack</artifactId>
+    <artifactId>02-krypto-bank-attack</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Mission: Bank Hack
+# 🕵️‍♂️ Aufgabe: Bank Hack
 
 Ich habe eine Online-Bank gefunden, deren RSA-Implementierung so löchrig ist wie ein Schweizer Käse. Das ist unsere Chance! 💸
 
