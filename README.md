@@ -5,9 +5,9 @@ Ich habe eine Online-Bank gefunden, deren RSA-Implementierung so löchrig ist wi
 ## 📝  Logbuch - Was ich bisher herausgefunden
 
 ### 🔓 Zugriff
-Ich kann die Banking-App mit folgendem Befehl starten (Docker muss installiert sein):
+Ich kann die Banking-App mit folgendem Befehl starten (Podman muss installiert sein):
 ```bash
-docker run -p 8080:8080 --pull=always --rm ghcr.io/hsa-it-sec/02-krypto-bank:latest
+podman run -p 8080:8080 --pull=always --rm ghcr.io/hsa-it-sec/02-krypto-bank:latest
 ```
 Anschließend kann ich über den Browser auf die Login-Seite zugreifen:
 ```bash
