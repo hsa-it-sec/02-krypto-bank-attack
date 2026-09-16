@@ -16,7 +16,8 @@ http://localhost:8080
 
 ### ⚙️ Funktionsweise
 - Der Nutzer gibt Kontonummer und eine **vierstellige PIN** ein.
-- Client-Side Encryption: Die PIN wird mit dem Public Key der Bank (RSA) verschlüsselt.
+- Client-Side Encryption: Die PIN wird mit dem Public Key der Bank (RSA, keine Anpassungen, daher deterministisch) verschlüsselt.
+- Der Public Key ist im Quelltext der Webseite hinterlegt.
 - Payload: Kontonummer + verschlüsselte PIN (Hex) gehen an den Server.
 - Server entschlüsselt mit die PIN mit dem Private Key.
 - Login Erfolg, wenn Kontonummer existiert und PIN matcht.
